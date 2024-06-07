@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "github.com/ArtemNovok/protoc";
+
+message AbsRequest {
+    int64 num = 1;
+}
+
+message AbsResponse {
+    int64 num = 1;
+    bool is_error = 2;
+}
+
+service Abs {
+    rpc Absolute(AbsRequest) returns (AbsResponse);
+}
+
