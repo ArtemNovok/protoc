@@ -4,7 +4,7 @@
 // - protoc             v5.26.1
 // source: buf/test.proto
 
-package protoc
+package absv1
 
 import (
 	context "context"

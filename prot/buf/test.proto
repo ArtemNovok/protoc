@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/ArtemNovok/protoc";
+option go_package = "artem.test.v2;absv1";
 
 message AbsRequest {
     int64 num = 1;
