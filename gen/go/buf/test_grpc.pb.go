@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	Abs_Absolute_FullMethodName = "/Abs/Absolute"
+	Abs_Absolute_FullMethodName = "/blup.Abs/Absolute"
 )
 
 // AbsClient is the client API for Abs service.
@@ -96,7 +96,7 @@ func _Abs_Absolute_Handler(srv interface{}, ctx context.Context, dec func(interf
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Abs_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "Abs",
+	ServiceName: "blup.Abs",
 	HandlerType: (*AbsServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
